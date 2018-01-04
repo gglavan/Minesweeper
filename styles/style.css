@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  cursor: pointer;
+  margin: 40px auto;
+}
+
+.spot {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  float: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  outline: 0.1px solid black;
+  box-shadow: 0 0 4px 0px #000 inset;
+  background-color: rgb(135,206,250);
+}
+
+.spot:hover {
+  background-color: rgb(240,248,255);
+}
+
+.bomb {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.settings {
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input-style {
+  text-align: center;
+  text-align: center; 
+}
+
+#create {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px #999;
+}
+
+#create:hover {background-color: #3e8e41}
+
+#create:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
